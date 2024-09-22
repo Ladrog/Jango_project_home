@@ -3,6 +3,7 @@ name: django test homework
 on:
   push:
     branches: [video]
+  workflow_dispatch:
 
 
 jobs:
@@ -30,7 +31,7 @@ jobs:
           --health-retries 5
     steps:
     - name: Проверяем репозиторий на наличие изменений
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Установка Python
       uses: actions/setup-python@v5
