@@ -32,6 +32,8 @@ jobs:
     steps:
     - name: Проверяем репозиторий на наличие изменений
       uses: actions/checkout@v3
+      with:
+        path: Jango_project_home/3.2-crud/workflows/project.yml
 
     - name: Установка Python
       uses: actions/setup-python@v5
