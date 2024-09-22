@@ -1,0 +1,5 @@
+PG_NAME='example'
+PG_USER='example'
+PG_PASSWORD='example'
+PG_HOST='example'
+PG_PORT='example'
